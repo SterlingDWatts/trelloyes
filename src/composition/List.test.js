@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer';
 import List from './List';
 import STORE from '../store';
 
-describe('List', () => {
+describe('List Component', () => {
     it('renders without crashing', () => {
         const list = STORE.lists[0];
         const allCards = STORE.allCards;
